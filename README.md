@@ -4,7 +4,7 @@ Automate your BMC TrueSight Server Automation (BSA) agent port checks and remote
 
 ## Features
 
-- Checks if port 4750 is open on each host (RSCD agent connectivity)
+- Checks if port .... is open on each host (RSCD agent connectivity)
 - Optionally restarts the RSCD service remotely via WinRM (Windows only)
 - Outputs status for each host
 
@@ -13,9 +13,9 @@ Automate your BMC TrueSight Server Automation (BSA) agent port checks and remote
 1. Prepare your host list file (one server name or IP per line):
 
 ```
-pgarmgmbsa01
-PGARMGMTSA04
-10.230.87.24
+servername01
+servername02
+serveripAdress
 ```
 
 2. Install requirements:
